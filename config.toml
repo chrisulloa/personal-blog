@@ -1,6 +1,6 @@
 baseURL = "https://chrisulloa.github.io/"
 languageCode = "en-us"
-title = "Christian Gonzalez"
+title = "chrisulloa"
 theme ="noteworthy"
 paginate = 4
 summaryLength = 10

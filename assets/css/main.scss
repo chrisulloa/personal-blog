@@ -1,8 +1,8 @@
 /* VARIABLES ========================================================================== */
 
 // COLORS
-$teal: #63BDA2;
-$teal-darker: #359377;
+$teal: #00A6FF;
+$teal-darker: #0284C9;
 $gray-background: #F7F7F7;
 $gray-table-border: #EEEEEE;
 $gray-lightest: #D2D2D2;
@@ -12,7 +12,7 @@ $gray-dark: #5F5F5F;
 $highlight: #FFEC5C;
 
 // FONTS
-$serif: "Noto Serif","Segoe UI","Helvetica Neue",Helvetica,Roboto,FreeSans,serif;
+$serif: "Noto Sans","Segoe UI","Helvetica Neue",Helvetica,Roboto,FreeSans,serif;
 $sans-serif: "Noto Sans","Segoe UI","Helvetica Neue",Helvetica,Roboto,FreeSans,sans-serif;
 $code: Menlo,Monaco,"Courier New",monospace;
 
@@ -280,6 +280,7 @@ nav {
 }
 
 .nav-link {
+  font-size: 20px;
   margin-bottom: 0.5em;
 }
 
