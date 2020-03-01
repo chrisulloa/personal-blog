@@ -7,19 +7,21 @@ summaryLength = 10
 
 [author]
     name = "chrisulloa"
+[markup.goldmark.renderer]
+    unsafe = true
 [params]
-email = "mailto:chrisulloago@gmail.com"
-linkedin = "https://www.linkedin.com/in/chrisulloa/"
-github = "https://github.com/chrisulloa"
-instagram = "https://instagram.com/chrisulloa"
-
-[[menu.main]]
-    identifier = "about"
-    name = "About Me"
-    url = "/about/"
-    weight = 1
-
+    description = "Things on my mind..."
+    email = "mailto:chrisulloago@gmail.com"
+    linkedin = "https://www.linkedin.com/in/chrisulloa/"
+    github = "https://github.com/chrisulloa"
+    instagram = "https://instagram.com/chrisulloa"
 [[menu.main]]
     name = "Posts"
     identifier = "posts"
-    url = "/"
+    url = "/posts/"
+    weight = 1
+[[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
