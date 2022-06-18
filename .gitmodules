@@ -3,5 +3,5 @@
 	url = https://github.com/kimcc/hugo-theme-noteworthy.git
 [submodule "public"]
 	path = public
-	url = https://github.com/chrisulloa/chrisulloa.github.io.git
+	url = https://github.com/chrisulloa/personal-blog.git
 	branch = master
